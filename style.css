@@ -1,0 +1,43 @@
+html { 
+  background: url(images/model.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    background-color: #003545;
+    font-family: roboto, helvetica, sans-serif;
+    text-align: center;
+}
+
+.nav {
+    background-color: #E6EDEB;
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 140px;
+    z-index:2;
+    padding: 30px;
+    opacity: 0.8;
+}
+
+.nav h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+
+.questions {
+    margin: 30px 10px;
+}
+
+.email {
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 30px;
+}
